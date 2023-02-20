@@ -254,11 +254,13 @@ button {
     margin-right: 0; 
     margin-left: auto;
     background: none;
-    color: white;
-    font-size: 1rem;
     border: 0;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+#btn a{
+    color: white;
+    font-size: 1rem;
 }
 #btn a:hover {
     color: #000000;
