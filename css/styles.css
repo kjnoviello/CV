@@ -260,7 +260,7 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-#btn:hover {
+#btn a:hover {
     color: #000000;
     font-weight: 600;
 }
