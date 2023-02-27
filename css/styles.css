@@ -264,27 +264,30 @@ button {
     color: #000000;
     font-weight: 600;
 }
-.home{
+/* ------------------
+        BOTON HOME
+------------------ */
+#home{
     display: flex;
     justify-content: center;
     -webkit-backdrop-filter: blur(70px);
     backdrop-filter: blur(70px);
 }
-.home div a div{
+#home div a div{
     display: flex;
     justify-content: center;
     gap: 10px;
     height: 40px;
 }
-.home img{
+#home img{
     filter: invert(100%);
 }
-.home p{
+#home p{
     margin: 0;
     padding: 0 5px;
     font-size: 25px;
 }
-.home div a div:hover{
+#home div a div:hover{
     background-color: #38CCCC; 
     transition: all 0.7s ease;
 }
