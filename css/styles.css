@@ -269,7 +269,7 @@ button {
 ------------------ */
 #home{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     -webkit-backdrop-filter: blur(70px);
     backdrop-filter: blur(70px);
 }
@@ -291,6 +291,48 @@ button {
     background-color: #38CCCC; 
     transition: all 0.7s ease;
 }
+.container-btn-mode{
+    cursor: pointer;
+    z-index: 20;
+    font-size:0;
+    display: flex;
+    align-items: center;
+}
+.btn-mode{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border:2px solid black;
+    transition: background-color .5s;
+}
+.btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+}
+.btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+}
+.btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.active{
+    background-color:black;
+}
+.dark-mode{
+    background-color: #0e0e0e;
+    transition:background-color .5s;
+    color:white;
+}
+.dark-mode .btn-mode{
+    background-color:#1A1C1E;
+    border:1px solid white;
+    color:white;
+}
 /* ------------------
         FOOTER
 ------------------ */
@@ -310,7 +352,7 @@ button {
 ---------------------*/
 .icon-whatsapp{
     position: fixed;
-    bottom: 436px;
+    bottom: 28px;
     right: 15px;
     z-index: 20;
     filter: drop-shadow(3px 3px 4px black);
@@ -341,55 +383,6 @@ button {
     filter: drop-shadow(3px 3px 4px black);
     transition: all 0.3s ease;
 }
-.container-btn-mode{
-    position: fixed;
-    bottom: 28px;
-    right: 15px;
-    cursor: pointer;
-    z-index: 20;
-    font-size:0;
-}
-.btn-mode{
-    display: inline-block;
-    width: 50px;
-    height: 30px;
-    border:2px solid black;
-    transition: background-color .5s;
-}
-.btn-mode i {
-    display: block;
-    font-size: 17px;
-    text-align: center;
-    line-height: 30px;
-}
-.btn-mode.sun{
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-right: 1px solid transparent;
-}
-.btn-mode.moon{
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.active{
-    background-color:black;
-    color:#ffcd5c !important;
-}
-.dark-mode{
-    background-color: #0e0e0e;
-    transition:background-color .5s;
-}
-.dark-mode .card{
-    background-color: #1A1C1E;
-}
-.dark-mode h1, .dark-mode h2, .dark-mode .btn-contact{
-    color:white;
-}
-.dark-mode .btn-mode{
-    background-color:#1A1C1E;
-    border:1px solid white;
-    color:white;
-}
 .icon-linkedin:hover, .icon-facebook:hover, .icon-instagram:hover, .icon-whatsapp:hover {
     scale: 130%;
 }
@@ -407,10 +400,9 @@ button {
     .section_bio { flex-direction: column; }
     .section-educacion { flex-direction: column; }
     .section_galeria { padding: 10px; }
-    .footer { color: rgb(75, 75, 75); 
-        text-shadow: none; }
-    a { color: black;
-        font-weight: 600; }
+    .footer { color: white; }
+    .footer a:hover{ font-weight: 900; }
+    a { font-weight: 600; }
     .header {
         position: relative;}
     .header ul { 
