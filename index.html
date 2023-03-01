@@ -16,23 +16,62 @@
 </head>
 <body>
 <!-- HEADER -->
-    <header class="header">
-        <ul>
-            <li><a href="#section_intro">Home</a></li>
-            <li><a href="#section_bio">Sobre mí</a></li>
-            <li><a href="#section_educacion">Educación</a></li>
-            <li><a href="#section_experiencia">Experiencia</a></li>
-            <li><a href="#section_galeria">Aptitudes</a></li>
-            <li><a href="#section_contact">Contacto</a></li>
-        </ul>
+    <header>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_intro">
+                        <span><i class="fas fa-home"></i></span> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_bio">
+                        <span><i class="fas fa-address-card"></i></span> Sobre mí
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_educacion">
+                        <span><i class="fas fa-book"></i></span> Educación
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_experiencia">
+                        <span><i class="fas fa-briefcase"></i></span> Experiencia
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_galeria">
+                        <span><i class="fas fa-check"></i></span> Aptitudes
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_contacto">
+                        <span><i class="fas fa-envelope"></i></span> Contacto
+                    </a>
+                </li>
+                <li class="nav.item">
+                    <div class="container-btn-mode" id="dark_mode">
+                        <div id="id-sun" class="btn-mode sun active">
+                           <i class="fas fa-sun"></i>
+                        </div>
+                        <div id="id-moon" class="btn-mode moon">
+                           <i class="fas fa-moon"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
     </header>
 <!-- INTRO -->
     <div id="section_intro"></div>
     <div class="main_container" id="main_container">
         <section class="section_intro" id="section_intro">
             <img src="./assets/intro_pic.jpg" alt="mi foto como perfil del documento">
-            <h1>Kevin Joel Noviello</h1>
-            <p>kjnoviello@gmail.com</p>
+            <p>Kevin Joel Noviello</p>
+            <p><a id="mail" href="mailto:kjnoviello@gmail.com" >kjnoviello@gmail.com</a></p>
             <p>11/06/1998</p>
             <p>Av. Corrientes 2980, Argentina</p>
         </section>
@@ -117,7 +156,7 @@
                 </div>
             </div>
         </section>
-        <br id="section_contact"><br>
+        <br id="section_contacto"><br>
 <!-- CONTACTO -->
         <section class="section_contact">
             <div class="section_contact_izq">
@@ -137,15 +176,15 @@
             </div>
             <div class="section_contact_der">
                 <form id="contact-form">
-                    <input type="text" name="nombre" placeholder="Nombre" required="" />
-                    <input type="email" name="email" placeholder="Email" required="" />
-                    <textarea rows="4" name="mensage" id="textarea" placeholder="Mensage" required=""></textarea>		          	
+                    <input type="text" name="nombre" placeholder="Nombre" required/>
+                    <input type="email" name="email" placeholder="Email" required/>
+                    <textarea rows="4" name="mensage" id="textarea" placeholder="Mensage" required></textarea>		          	
                     <button type="submit" id="btn"><a href="#">Enviar</a></button>          	
                 </form>    
             </div>
         </section>
         <br><br>
-<!-- boton home -->        
+<!-- BOTON HOME -->        
         <div id="home">
             <div>
                 <a href="#section_intro"><div>
@@ -153,16 +192,8 @@
                 <p  id="btn_p">Ir a Inicio</p>
                 </div></a>
             </div>
-            <div class="container-btn-mode" id="dark_home">
-                <div id="id-sun" class="btn-mode sun active">
-                   <i class="fas fa-sun"></i>
-                </div>
-                <div id="id-moon" class="btn-mode moon">
-                   <i class="fas fa-moon"></i>
-                </div>
-            </div>
         </div>
-<!-- iconos fijos -->
+<!-- ICONOS FIJOS -->
         <div id="iconos">
             <a href="https://www.linkedin.com/in/kevinjoelnoviello/" rel="noopener" target="_blank"><img src="https://img.icons8.com/color/60/null/linkedin.png" alt="icono de linkedin" class="icon-linkedin"/></a>
             <a href="https://es-la.facebook.com/" rel="noopener" target="_blank"><img src="https://img.icons8.com/color/60/null/facebook-new.png" alt="facebook icon" class="icon-facebook" alt="facebook icon"/></a>

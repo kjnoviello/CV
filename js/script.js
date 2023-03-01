@@ -13,3 +13,9 @@ document.getElementById('id-moon').onclick = function(){
     document.getElementById('id-sun').classList.remove('active')
     this.classList.add('active')
 }
+const bodyEl = document.body
+const hamburgerEl = document.querySelector('.hamburger')
+
+hamburgerEl.addEventListener('click', () => {
+	bodyEl.classList.toggle('active')
+})
