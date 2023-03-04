@@ -191,6 +191,7 @@ h1, h2, p, i, address, .section_contact_center_telephone { color: white; }
 }
 .section_educacion_ul{
     list-style: none;
+    padding: 0;
 }
 /*-------------------
         EXPERIENCIA 
