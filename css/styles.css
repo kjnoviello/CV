@@ -20,6 +20,104 @@ a {
     color: #38CCCC;
 }
 h1, h2, p, i, address, .section_contact_center_telephone { color: white; }
+.heartbeat {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite 1.2s both;
+	        animation: heartbeat 1.5s ease-in-out infinite 1.2s both;
+}
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        -webkit-transform-origin: center center;
+                transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out; }
+    10% {
+        -webkit-transform: scale(0.91);
+                transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in; }
+    17% {
+        -webkit-transform: scale(0.98);
+                transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out; }
+    33% {
+        -webkit-transform: scale(0.87);
+                transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in; }
+    45% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out; }
+}
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        -webkit-transform-origin: center center;
+                transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out; }
+    10% {
+        -webkit-transform: scale(0.91);
+                transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in; }
+    17% {
+        -webkit-transform: scale(0.98);
+                transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out; }
+    33% {
+        -webkit-transform: scale(0.87);
+                transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in; }
+    45% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out; } 
+}
+.roll-in-left {
+	-webkit-animation: roll-in-left 1s ease-out 0.5s both;
+	        animation: roll-in-left 1s ease-out 0.5s both;
+}
+@-webkit-keyframes roll-in-left {
+    0% {
+        -webkit-transform: translateX(-800px) rotate(-540deg);
+                transform: translateX(-800px) rotate(-540deg);
+        opacity: 0; }
+    100% {
+        -webkit-transform: translateX(0) rotate(0deg);
+                transform: translateX(0) rotate(0deg);
+        opacity: 1; }
+}
+@keyframes roll-in-left {
+    0% {
+        -webkit-transform: translateX(-800px) rotate(-540deg);
+                transform: translateX(-800px) rotate(-540deg);
+        opacity: 0; }
+    100% {
+        -webkit-transform: translateX(0) rotate(0deg);
+                transform: translateX(0) rotate(0deg);
+        opacity: 1; }
+}
+.fade-in {
+	-webkit-animation: fade-in 2.0s ease-in 1.2s both;
+	        animation: fade-in 2.0s ease-in 1.2s both;
+}
+@-webkit-keyframes fade-in{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}  
 /* -----------------
         HEADER
 ----------------- */
