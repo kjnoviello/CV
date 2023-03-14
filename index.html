@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script> <!--script de scrollreveal-->
+    <link rel="shortcut icon" href="./assets/favicom.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Mi CV" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kjnoviello.github.io/CV/" />
+    <meta property="og:image" content="D:\Argentina Programa\Ticmas Desarrollo Frontend\Proyecto\trabajofinal\assets\preview.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+<!-- HEADER -->
+    <header>
+        <div class="hamburger roll-in-left">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_intro">
+                        <span><i class="fas fa-home"></i></span> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_bio">
+                        <span><i class="fas fa-address-card"></i></span> Sobre mí
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_educacion">
+                        <span><i class="fas fa-book"></i></span> Educación
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_experiencia">
+                        <span><i class="fas fa-briefcase"></i></span> Experiencia
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_galeria">
+                        <span><i class="fas fa-check"></i></span> Aptitudes
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section_contacto">
+                        <span><i class="fas fa-envelope"></i></span> Contacto
+                    </a>
+                </li>
+                <li class="nav.item">
+                    <div class="container-btn-mode" id="dark_mode">
+                        <div id="id-sun" class="btn-mode sun active">
+                           <i class="fas fa-sun"></i>
+                        </div>
+                        <div id="id-moon" class="btn-mode moon">
+                           <i class="fas fa-moon"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!-- INTRO -->
+    <div id="section_intro"></div>
+    <div class="main_container" id="main_container">
+        <section class="section_intro" id="section_intro">
+            <img src="./assets/intro_pic.jpg" alt="mi foto como perfil del documento">
+            <h2 class="heartbeat"><strong>Kevin Joel Noviello</strong></h2>
+            <p><a id="mail" href="mailto:kjnoviello@gmail.com" >kjnoviello@gmail.com</a></p>
+            <p>11/06/1998</p>
+            <p>Av. Corrientes 2980, Argentina</p>
+        </section>
+        <br id="section_bio"><br>
+<!-- BIO -->
+        <section class="section_bio">
+            <div class="section_bio_izq">
+                <img src="./assets/bio_pic.jpg" alt="foto de mi mujer y  yo en una tarde de ocio">
+                <h2 class="heartbeat">Sobre Mí</h2>
+            </div>
+            <div class="section_bio_der">
+                <p class="section_bio_der_p_arriba">Soy un director ejecutivo de 37 años que disfruta correr, rezar y cumplir con las metas. Soy responsable y leal, pero también puedo ser un poco impaciente. Tengo una licenciatura en ciencias empresariales. Me considero un fanático de Star Wars.</p>
+                <p class="section_bio_der_p_abajo">Crecí en un barrio de clase trabajadora. Después de que mi padre muriera cuando era joven, fui criado por mi madre. Actualmente estoy casado con Sofía Beltramo. Sofía es 5 años menor que yo y trabaja como asistente ejecutiva.</p>
+            </div>
+        </section>
+        <br id="section_educacion"><br>
+<!-- EDUCACION -->
+        <section class="section_bio section_estudios-bk" >
+            <div class="section_bio_izq">
+                <img src="./assets/estudios_pic.jpg" alt="foto de cuando estaba en la facultad empezando mis estudios">
+                <h2 class="heartbeat">Estudios</h2>
+            </div>
+            <div class="section_bio_der">
+                <ul class="section_bio_der_p_arriba section_educacion_ul">
+                    <li><p><strong>Universidad Siglo Veintiuno:</strong></p></li>
+                    <li><p><u>Licenciatura en Gestión de Recursos Humanos.</u></p></li>
+                    <li><p><strong>2010 - 2023</strong></p></li>
+                </ul>
+                <ul class="section_bio_der_p_arriba section_educacion_ul">
+                    <li><p><strong>Universidad Nacional de Córdoba:</strong></p></li>
+                    <li><p><u>Curso en inglés profesional.</u></p></li>
+                    <li><p><strong>2005 - 2010</strong></p></li>
+                </ul>
+            </div>
+        </section>
+        <br id="section_experiencia"><br>
+<!-- EXPERIENCIA -->
+        <section class="section_bio section_experiencia-bk">
+            <div class="section_bio_izq">
+                <img src="./assets/experiencia_pic.jpg" alt=" foto luego de firmar mi último contrato de trabajo">
+                <h2 class="heartbeat">Experiencia</h2>
+            </div>
+            <div class="section_bio_der">
+                <p class="section_bio_der_p_arriba"><u><strong>Asistente de Gerente: </strong></u>Mi primer trabajo! Nada más emocionante que acompañar a la gerencia de Marketing de <strong>Accenture, Bs As </strong> por dos años desde 2005. Aquí aprendí el valor de la responsabilidad y el trabajo en equipo</p>
+                <p class="section_bio_der_p_arriba"><u><strong>IT Recruiter: </strong></u>Trabajé desde 2007 por 3 maravillosos años en <strong>Humanitas IT, Bs As </strong>donde desarrollé aptitudes como Sourcing, Entrevistas, Selección de personal.</p>
+                <p class="section_bio_der_p_abajo"><u><strong>Director de RRHH: </strong></u>En 2010 tuve la gran oportunidad de entrar en <strong>Asorum Group, Bs As </strong>donde puedo desenvolver todo mi potencial y alcanzar nuevas habilidades para lograr nuevos objetivos.</p>
+            </div>
+        </section>
+        <br id="section_galeria"><br>
+<!-- GALERIA -->
+        <section>
+            <div class="section_galeria">				
+                <div class="section_galeria_item">
+                    <img src="./assets/galeria_creative process_two color.svg" alt="icono de creatividad en color"/>
+                    <meter value="0.9">90%</meter>
+                    <p class="heartbeat">Creatividad</p>
+                </div>
+                <div class="section_galeria_item">
+                    <img src="./assets/galeria_team work_outline.svg" alt="icono de trabajo en equipo outline"/>
+                    <meter value="0.8">80%</meter>
+                    <p class="heartbeat">Trabajo en equipo</p>
+                </div>
+                <div class="section_galeria_item">
+                    <img src="./assets/galeria_problem solving_outline.svg" alt="icono de resolución de problemas outline"/>
+                    <meter value="0.95">95%</meter>
+                    <p class="heartbeat">Resolución de problemas</p>
+                </div>
+                <div class="section_galeria_item">
+                    <img src="./assets/galeria_business conference.svg" alt="icono de liderazgo en una conferencia"/>
+                    <meter value="0.75">75%</meter>
+                    <p class="heartbeat">Liderazgo</p>
+                </div>
+                <div class="section_galeria_item">
+                    <img src="./assets/galeria_motivation_outline.svg" alt="icono de auto motivación outline"/>
+                    <meter value="1.0">100%</meter>
+                    <p class="heartbeat">Motivación</p>
+                </div>
+                <div class="section_galeria_item">
+                    <img src="./assets/galeria_CTO_Outline.svg" alt="icono de adaptabilidad en el trabajo outline"/>
+                    <meter value="0.82">82%</meter>
+                    <p class="heartbeat">Adaptabilidad</p>
+                </div>
+            </div>
+        </section>
+        <br id="section_contacto"><br>
+<!-- CONTACTO -->
+        <section class="section_contact">
+            <div class="section_contact_izq">
+                <img src="./assets/contacto_pic.jpg" alt="foto de un ceular con iconos de contactos">
+                <h2 class="heartbeat">Contacto</h2>
+            </div>
+            <div class="section_contact_center">
+                <address class="section_contact_center_adress">
+                    Sé libre de comunicarte conmigo. Siempre es un placer escuchar nuevas ideas.
+                </address>
+                <div class="section_contact_center_telephone">Tel: <a href="https://wa.me/3416851106" rel="noopener" target="_blank" class="section_contact_center_telephone">+54-341-6851106</a></div>   
+                <div class="section_contact_center_social">
+                    <a href="https://es-la.facebook.com/" rel="noopener" class="section_contact_center_social_link" target="_blank"><img src="https://img.icons8.com/material/24/000000/facebook-new.png" alt="icono de facebook"/></a>
+                    <a href="https://twitter.com/?lang=es" rel="noopener" class="section_contact_center_social_link" target="_blank"><img src="https://img.icons8.com/material/24/000000/twitter--v2.png" alt="icono de twitter"/></a>
+                    <a href="https://www.instagram.com/" rel="noopener" class="section_contact_center_social_link" target="_blank"><img src="https://img.icons8.com/material/24/000000/instagram-new--v1.png" alt="icono de instagram"/></a>
+                </div>
+            </div>
+            <div class="section_contact_der">
+                <form id="contact-form">
+                    <input type="text" name="nombre" placeholder="Nombre" required/>
+                    <input type="email" name="email" placeholder="Email" required/>
+                    <textarea rows="4" name="mensage" id="textarea" placeholder="Mensage" required></textarea>		          	
+                    <button type="submit" id="btn"><a href="#">Enviar</a></button>          	
+                </form>    
+            </div>
+        </section>
+        <br><br>
+<!-- BOTON HOME -->        
+        <div id="home">
+            <div>
+                <a href="#section_intro"><div>
+                    <img src="https://img.icons8.com/ios-glyphs/30/null/home-page--v1.png" alt="icon_home"/>
+                <p  id="btn_p">Ir a Inicio</p>
+                </div></a>
+            </div>
+        </div>
+<!-- ICONOS FIJOS -->
+        <div id="iconos">
+            <a href="https://www.linkedin.com/in/kevinjoelnoviello/" rel="noopener" target="_blank"><img src="https://img.icons8.com/color/60/null/linkedin.png" alt="icono de linkedin" class="icon-linkedin fade"/></a>
+            <a href="https://es-la.facebook.com/" rel="noopener" target="_blank"><img src="https://img.icons8.com/color/60/null/facebook-new.png" alt="facebook icon" class="icon-facebook fade" alt="facebook icon"/></a>
+            <a href="https://www.instagram.com/" rel="noopener" target="_blank"><img src="https://img.icons8.com/color/60/null/instagram-new--v1.png" alt="icono de instagram" class="icon-instagram fade" alt="intagram icon"/></a>
+            <a href="https://wa.me/3416851106" rel="noopener" target="_blank"><img src="https://img.icons8.com/color/60/null/whatsapp--v1.png" alt="icono de whatsapp" class="icon-whatsapp fade" alt="whatsapp icon"/></a>
+        </div>
+        <hr>
+<!-- FOOTER -->
+        <footer class="footer">
+            Copyright 2023 - Design: <a rel="noopener" href="https://informaticanoviello.aptugo.app/" target="_blank">Kevin Joel Noviello</a>
+        </footer>
+    </div>
+    <script src="./js/script.js"></script>
+    <!-- inicio de scrollreveal (en head esta linkeado el js) -->
+    <script>
+        ScrollReveal({ distance: '60px' });
+        ScrollReveal().reveal('.section_intro', { duration: 1500});
+        ScrollReveal().reveal('.section_bio', { duration: 1500 });
+        ScrollReveal().reveal('.section_galeria', { duration: 1500 });
+        ScrollReveal().reveal('.section_contact', { duration: 1500 });
+    </script>
+    <!-- fin de scrollreveal -->
+</body>
+</html>
